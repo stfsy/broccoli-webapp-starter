@@ -2,7 +2,6 @@
 
 [![Git tag](https://img.shields.io/github/tag/stfsy/broccoli-webapp-starter.svg)](https://github.com/stfsy/broccoli-webapp-starter/releases)
 [![Github issues](https://img.shields.io/github/issues/stfsy/broccoli-webapp-starter.svg)](https://github.com/stfsy/broccoli-webapp-starter/issues)
-[![License](https://img.shields.io/npm/l/broccoli-webapp-starter.svg)](https://github.com/stfsy/broccoli-webapp-starter/blob/master/LICENSE)
 
 Starter project for a web application using **Broccoli** as development and build pipeline tool.
 

@@ -1,0 +1,35 @@
+{
+  "name": "broccoli-webapp-starter",
+  "version": "0.0.0",
+  "description": "Starter project for a web application using **Broccoli** as development and build pipeline",
+  "scripts": {
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r",
+    "build": "broccoli build dist",
+    "serve": "broccoli serve --host 0.0.0.0",
+    "preversion": "npm run test",
+    "version": "npm run changelog && git add -A CHANGELOG.md",
+    "postversion": "git push && git push --tags",
+    "release-major": "npm version major -m \"chore(release): v%s\"",
+    "release-minor": "npm version minor -m \"chore(release): v%s\"",
+    "release-patch": "npm version patch -m \"chore(release): v%s\""
+  },
+  "author": "Stefan Pfaffel",
+  "license": "MIT",
+  "dependencies": {
+    "material-components-web": "^0.6.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-mangle": "^0.1.7",
+    "babel-plugin-transform-merge-sibling-variables": "^6.8.2",
+    "broccoli": "^1.1.1",
+    "broccoli-babel-plugin": "^0.4.0",
+    "broccoli-cli": "^1.0.0",
+    "broccoli-concat": "^3.2.2",
+    "broccoli-funnel": "^1.1.0",
+    "broccoli-htmlmin": "^2.1.0",
+    "broccoli-image-min": "^1.1.0",
+    "broccoli-livereload": "^1.0.0",
+    "broccoli-merge-trees": "^2.0.0",
+    "conventional-changelog-cli": "^1.3.1"
+  }
+}

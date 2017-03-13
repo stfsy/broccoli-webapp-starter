@@ -19,7 +19,7 @@ Starts a development server on the local machine on port **4200**, serving all i
 npm run serve
 ```
 
-## Serve
+## Build
 
 Builds the webapp, including all images, scripts, styles and views. Output directory is **dist** and has to be cleaned before a new build.
 

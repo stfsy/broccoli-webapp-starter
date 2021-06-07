@@ -15,7 +15,7 @@
   "author": "Stefan Pfaffel",
   "license": "MIT",
   "dependencies": {
-    "material-components-web": "^0.6.0"
+    "material-components-web": "^0.44.1"
   },
   "devDependencies": {
     "babel-plugin-transform-mangle": "^0.1.7",
